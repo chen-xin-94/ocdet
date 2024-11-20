@@ -35,7 +35,7 @@ import argparse
 from functools import partial
 from tqdm import tqdm
 
-COCO_FOLDER = "/mnt/ssd2/xin/data/coco/"
+COCO_FOLDER = "/mnt/ssd2/xxx/data/coco/"
 
 
 def load_image(coco, root: str, id: int) -> Image.Image:

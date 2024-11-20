@@ -36,7 +36,7 @@ from tqdm import tqdm
 from scipy.ndimage import gaussian_filter
 import socket
 
-COCO_FOLDER = "/mnt/ssd2/xin/data/coco/"
+COCO_FOLDER = "/mnt/ssd2/xxx/data/coco/"
 
 
 def load_image(coco, root: str, id: int) -> Image.Image:

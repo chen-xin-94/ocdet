@@ -37,7 +37,7 @@ import argparse
 from functools import partial
 from tqdm import tqdm
 
-COCO_FOLDER = "/mnt/ssd2/xin/data/coco/"
+COCO_FOLDER = "/mnt/ssd2/xxx/data/coco/"
 
 ETAs = [0.7, 0.1, 0.3, 0.7, 0.9]
 PHIs = [0.7, 0.9, 0.7, 0.3, 0.1]

@@ -36,7 +36,7 @@ class Converter:
         tflite_model_path,
         calib_data_path,
         opset_version=13,  # higher version caused errors for vx delegate
-        coco_dir="/mnt/ssd2/xin/data/coco",
+        coco_dir="/mnt/ssd2/xxx/data/coco",
         num_calib_img=10,
     ):
         self.torch_model = torch_model

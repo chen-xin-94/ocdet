@@ -15,7 +15,7 @@ from utils.utils import dotdict
 from pathlib import Path
 import json
 
-COCO_FOLDER = "/mnt/ssd2/xin/data/coco/"
+COCO_FOLDER = "/mnt/ssd2/xxx/data/coco/"
 
 
 def get_args():

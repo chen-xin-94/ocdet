@@ -70,7 +70,7 @@ target_category_ids = list(COCO_ID_TO_CHANNEL.keys())[
     :n_classes
 ]  # NOTE: currently only support first n_classes
 
-COCO_FOLDER = "/mnt/ssd2/xin/data/coco/"
+COCO_FOLDER = "/mnt/ssd2/xxx/data/coco/"
 coco_folder = Path(COCO_FOLDER)
 split = "val2017"
 root = coco_folder / split
@@ -124,7 +124,7 @@ for model_name in MODEL_NAMES:
         collate_fn=dataset.collate_fn,
     )
 
-    json_path = f"/mnt/ssd2/xin/repo/ultralytics/customization/runs/detect/val_{model_name}_r{RESIZE}/predictions.json"
+    json_path = f"/mnt/ssd2/xxx/repo/ultralytics/customization/runs/detect/val_{model_name}_r{RESIZE}/predictions.json"
     json_dict_path = json_path.replace("predictions.json", "predicrtions_dict.json")
     cad_results_path = json_path.replace(
         "predictions.json", f"cad_results_c{n_classes}.json"

@@ -8,8 +8,8 @@ device = "cuda:3"
 args = {
     "task": "cmap",
     # "task": "gmap_kp",
-    # "data_folder": "/mnt/ssd2/xin/data/coco",
-    "data_folder": "/mnt/ssd3/xin/data/coco",
+    # "data_folder": "/mnt/ssd2/xxx/data/coco",
+    "data_folder": "/mnt/ssd3/xxx/data/coco",
     "train_ann_file": "instances_train2017.json",
     "val_ann_file": "instances_val2017.json",
     "backbone": "mobilenetv4_conv_small.e2400_r224_in1k",

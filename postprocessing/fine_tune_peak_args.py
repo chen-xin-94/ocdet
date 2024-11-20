@@ -61,7 +61,7 @@ thresholds_abs = np.linspace(0, 0.9, 10)
 # thresholds_abs = [None, 0.1, 0.2, 0.25, 0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.75]
 
 BATCH_SIZE = 1
-COCO_FOLDER = "/mnt/ssd2/xin/data/coco/"
+COCO_FOLDER = "/mnt/ssd2/xxx/data/coco/"
 
 
 parser = argparse.ArgumentParser()

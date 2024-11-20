@@ -74,7 +74,7 @@ def get_args():
         "--data_folder",
         metavar="DIR",
         help="path to dataset",
-        default="/mnt/ssd2/xin/data/coco/",  # OPTION
+        default="/mnt/ssd2/xxx/data/coco/",  # OPTION
     )
     parser.add_argument(
         "--print_every",
