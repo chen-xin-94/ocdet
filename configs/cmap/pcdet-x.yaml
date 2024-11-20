@@ -1,0 +1,42 @@
+# resume: PLACEHOLDER
+
+# task specific
+n_classes: 1
+stride: 4
+resized_image_size:
+    - 320
+    - 320
+# data specific
+train_ann_file: instances_train2017_person.json
+val_ann_file: instances_val2017_person.json
+
+# model specific
+arch: fpn
+# fpn specific
+num_outs: 4
+backbone: efficientnetv2_rw_s
+dropout_ratio: 0
+out_channel: 64
+fpn_type: mm
+
+# training specific
+epochs: 24
+batch_size: 128
+lr: 0.0016
+lr_scheduler: cosine
+beta1: 0.916
+beta2: 0.988
+weight_decay: 0.00016
+
+# postprocessing
+min_distance: 3
+threshold_abs: 0.5
+
+# loss
+loss: cfocal
+
+# focal loss
+alpha: 0.964
+gamma: 2
+
+deep_supervision: False
