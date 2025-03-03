@@ -164,11 +164,11 @@ To run inference on NPU, trained PyTorch models must first be converted to Tenso
 
 ### 1. Model Conversion and Quantization
 
-Follow the examples provided in [convert.ipynb](conversion/convert.ipynb)
+Follow the examples provided in [convert.ipynb](npu/convert.ipynb)
 
 ### 2. Inference on NPU
 
-Check the script [tflite_inference.py](conversion/tf)
+Check the script [tflite_inference.py](npu/tf)
 
 ## Qualitative Results
 
